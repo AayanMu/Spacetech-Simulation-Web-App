@@ -1,0 +1,211 @@
+<html>
+    <head>
+        <title>Spacetech Simulation Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+            <h1>Spacetech Simulation Web App</h1>
+            <br>
+            <h2>Solar Eclipse And Lunar Eclipse</h2>
+            <hr>
+            <br>
+            <br>
+            
+            <div id="lunar_div">
+                
+                <div class="ss">
+                    <center>
+                <h1><b>LUNAR ECLIPSE</b></h1>
+                <br>
+                <h3><b>What is a Lunar Eclipse?</b></h3>
+                <br>
+                <div><img class="is1" src="l1.png"></div>
+                <br>
+                <div><p class="para">A lunar eclipse is an astronomical event that occurs when the Moon moves into the Earth's shadow, causing the moon to be darkened.[1] Such alignment occurs during an eclipse season, approximately every six months, during the full moon phase, when the Moon's orbital plane is closest to the plane of the Earth's orbit.</p>
+                </div>
+                </center>
+                </div>
+                <br>
+                <br>
+
+
+                <div class="ss">
+                    <center>
+                <h3><b>Types of Lunar Eclipses</b></h3>
+                <br>
+                <div><img class="is1" src="l3.jpg"></div>
+                <br>
+                <div><p class="para">Earth's shadow can be divided into two distinctive parts: the umbra and penumbra. Earth totally occludes direct solar radiation within the umbra, the central region of the shadow. However, since the Sun's diameter appears about one-quarter of Earth's in the lunar sky, the planet only partially blocks direct sunlight within the penumbra, the outer portion of the shadow.
+
+                    <b>Penumbral lunar eclipse</b><br>
+                    A penumbral lunar eclipse occurs when the Moon passes only into the Earth's penumbra.[3] The penumbra causes a subtle dimming of the lunar surface, which is only visible to the naked eye when about 70% of the Moon's diameter has immersed into Earth's penumbra.[4] A special type of penumbral eclipse is a total penumbral lunar eclipse, during which the Moon lies exclusively within Earth's penumbra. Total penumbral eclipses are rare, and when these occur, the portion of the Moon closest to the umbra may appear slightly darker than the rest of the lunar disk.
+                    <br>
+                    <b>Partial lunar eclipse</b><br>
+                    When the Moon penetrates partially into the Earth's umbra, it is known as a partial lunar eclipse,[3] while a total lunar eclipse occurs when the entire Moon enters the planet's umbra. The Moon's average orbital speed is about 1.03 km/s (2,300 mph), or a little more than its diameter per hour, so totality may last up to nearly 107 minutes. Nevertheless, the total time between the first and the last contacts of the Moon's limb with Earth's shadow is much longer and could last up to 236 minutes.[5]
+                    <br>
+                    <b>Total lunar eclipse</b><br>
+                    If the Moon entirely passes into the Earth's umbra, a total lunar eclipse occurs.[3] Just prior to complete entry, the brightness of the lunar limb—the curved edge of the Moon still being hit by direct sunlight—will cause the rest of the Moon to appear comparatively dim. The moment the Moon enters a complete eclipse, the entire surface will become more or less uniformly bright. Later, as the Moon's opposite limb is struck by sunlight, the overall disk will again become obscured. This is because as viewed from the Earth, the brightness of a lunar limb is generally greater than that of the rest of the surface due to reflections from the many surface irregularities within the limb: sunlight striking these irregularities is always reflected back in greater quantities than that striking more central parts, and is why the edges of full moons generally appear brighter than the rest of the lunar surface. This is similar to the effect of velvet fabric over a convex curved surface which to an observer will appear darkest at the center of the curve. It will be true of any planetary body with little or no atmosphere and an irregular cratered surface (e.g., Mercury) when viewed opposite the Sun.[6]
+                    <br>
+                   <b>Central lunar eclipse</b><br>
+                    Central lunar eclipse is a total lunar eclipse during which the Moon passes through the centre of Earth's shadow, contacting the antisolar point.[7] This type of lunar eclipse is relatively rare.
+                    <br>
+                    The relative distance of the Moon from Earth at the time of an eclipse can affect the eclipse's duration. In particular, when the Moon is near apogee, the farthest point from Earth in its orbit, its orbital speed is the slowest. The diameter of Earth's umbra does not decrease appreciably within the changes in the Moon's orbital distance. Thus, the concurrence of a totally eclipsed Moon near apogee will lengthen the duration of totality.
+                    <br>
+                   <b> Selenelion</b><br>
+                    A selenelion or selenehelion, also called a horizontal eclipse, occurs where and when both the Sun and an eclipsed Moon can be observed at the same time. The event can only be observed just before sunset or just after sunrise, when both bodies will appear just above opposite horizons at nearly opposite points in the sky. A selenelion occurs during every total lunar eclipse—it is an experience of the observer, not a planetary event separate from the lunar eclipse itself. Typically, observers on Earth located on high mountain ridges undergoing false sunrise or false sunset at the same moment of a total lunar eclipse will be able to experience it. Although during selenelion the Moon is completely within the Earth's umbra, both it and the Sun can be observed in the sky because atmospheric refraction causes each body to appear higher (i.e., more central) in the sky than its true geometric planetary position.[8]</p>
+                </div>
+                </center>
+                </div>
+                <br>
+                <br>
+
+                <div class="ss">
+                    <center>
+                <h3><b>Timing of Lunar Eclipses</b></h3>
+                <br>
+                <div><img class="is1" src="l7.webp"></div>
+                <br>
+                <div><p class="para">The timing of total lunar eclipses is determined by what are known as its "contacts" (moments of contact with Earth's shadow):
+
+                    P1 (First contact): Beginning of the penumbral eclipse. Earth's penumbra touches the Moon's outer limb.
+                    <br>
+                    U1 (Second contact): Beginning of the partial eclipse. Earth's umbra touches the Moon's outer limb.
+                    <br>
+                    U2 (Third contact): Beginning of the total eclipse. The Moon's surface is entirely within Earth's umbra.
+                    <br>
+                    Greatest eclipse: The peak stage of the total eclipse. The Moon is at its closest to the center of Earth's umbra.
+                    <br>
+                    U3 (Fourth contact): End of the total eclipse. The Moon's outer limb exits Earth's umbra.
+                    <br>
+                    U4 (Fifth contact): End of the partial eclipse. Earth's umbra leaves the Moon's surface.
+                    <br>
+                    P4 (Sixth contact): End of the penumbral eclipse. Earth's penumbra no longer makes contact with the Moon.</p>
+        
+                </div>
+                </center>
+                </div>
+                <br>
+                <br>
+
+
+                <div class="ss">
+                    <center>
+                
+                <h3><b>Extra Info on Lunar Eclipses</b></h3>
+                <br>
+                <div><img class="is1" src="l2.jpg"></div>
+                <br>
+                <div><p class="para">The following scale (the Danjon scale) was devised by André Danjon for rating the overall darkness of lunar eclipses:[10]
+
+                    L = 0: Very dark eclipse. Moon almost invisible, especially at mid-totality.
+                    <br>
+                    L = 1: Dark eclipse, gray or brownish in coloration. Details distinguishable only with difficulty.
+                    <br>
+                    L = 2: Deep red or rust-colored eclipse. Very dark central shadow, while outer edge of umbra is relatively bright.
+                    <br>
+                    L = 3: Brick-red eclipse. Umbral shadow usually has a bright or yellow rim.
+                    <br>
+                    L = 4: Very bright copper-red or orange eclipse. Umbral shadow is bluish and has a very bright rim.</p>
+                </div>
+                </center>
+                </div>
+                <br>
+                <br>
+
+
+                <div class="ss">
+                    <center>
+                
+                <h3><b>Differences in Solar and Lunar Eclipse</b></h3>
+                <br>
+                <div><img class="is1" src="l8.webp"></div>
+                <br>
+                <div><p class="para">There is often confusion between a solar eclipse and a lunar eclipse. While both involve interactions between the Sun, Earth, and the Moon, they are very different in their interactions.
+
+                    The Moon does not completely darken as it passes through the umbra because of the refraction of sunlight by Earth's atmosphere into the shadow cone; if Earth had no atmosphere, the Moon would be completely dark during the eclipse.[11] The reddish coloration arises because sunlight reaching the Moon must pass through a long and dense layer of Earth's atmosphere, where it is scattered. Shorter wavelengths are more likely to be scattered by the air molecules and small particles; thus, the longer wavelengths predominate by the time the light rays have penetrated the atmosphere. Human vision perceives this resulting light as red. This is the same effect that causes sunsets and sunrises to turn the sky a reddish color. An alternative way of conceiving this scenario is to realize that, as viewed from the Moon, the Sun would appear to be setting (or rising) behind Earth.
+                    
+                    The amount of refracted light depends on the amount of dust or clouds in the atmosphere; this also controls how much light is scattered. In general, the dustier the atmosphere, the more that other wavelengths of light will be removed (compared to red light), leaving the resulting light a deeper red color. This causes the resulting coppery-red hue of the Moon to vary from one eclipse to the next. Volcanoes are notable for expelling large quantities of dust into the atmosphere, and a large eruption shortly before an eclipse can have a large effect on the resulting color.</p>
+                </div>
+                </center>
+                </div>
+                <br>
+                <br>
+
+
+                  
+                <div class="ss">
+                    <center>
+                
+                <h3><b>Occurence of Lunar Eclipses in History</b></h3>
+                <br>
+                <div><img class="is1" src="l5.jpg"></div>
+                <br>
+                <div><p class="para">Several cultures have myths related to lunar eclipses or allude to the lunar eclipse as being a good or bad omen. The Egyptians saw the eclipse as a sow swallowing the Moon for a short time; other cultures view the eclipse as the Moon being swallowed by other animals, such as a jaguar in Mayan tradition, or a mythical three-legged toad known as Chan Chu in China.[citation needed] Some societies thought it was a demon swallowing the Moon, and that they could chase it away by throwing stones and curses at it.[12] The Ancient Greeks correctly believed the Earth was round and used the shadow from the lunar eclipse as evidence.[13] Some Hindus believe in the importance of bathing in the Ganges River following an eclipse because it will help to achieve salvation.[14]
+                     <br>
+                   <b> Inca</b>
+                    <br>
+                    Similarly to the Mayans, the Incans believed that lunar eclipses occurred when a jaguar ate the Moon, which is why a blood moon looks red. The Incans also believed that once the jaguar finished eating the Moon, it could come down and devour all the animals on Earth, so they would take spears and shout at the Moon to keep it away.[15]
+                    <br>
+                <b> Mesopotamians</b>
+                    <br>
+                    The ancient Mesopotamians believed that a lunar eclipse was when the Moon was being attacked by seven demons. This attack was more than just one on the Moon, however, for the Mesopotamians linked what happened in the sky with what happened on the land, and because the king of Mesopotamia represented the land, the seven demons were thought to be also attacking the king. In order to prevent this attack on the king, the Mesopotamians made someone pretend to be the king so they would be attacked instead of the true king. After the lunar eclipse was over, the substitute king was made to disappear (possibly by poisoning).[15]
+                    <br>
+                <b>Chinese</b>
+                    <br>
+                    In some Chinese cultures, people would ring bells to prevent a dragon or other wild animals from biting the Moon.[16] In the 19th century, during a lunar eclipse, the Chinese navy fired its artillery because of this belief.[17] During the Zhou Dynasty (c. 1046–256 BC) in the Book of Songs, the sight of a Red Moon engulfed in darkness was believed to foreshadow famine or disease.</p>
+                </div>
+                </center>
+                </div>
+                <br>
+                <br>
+
+
+                <div class="ss">
+                    <center>
+                
+                <h3><b>Blood Moon</b></h3>
+                <br>
+                <div><img class="is1" src="l2.jpg"></div>
+                <br>
+                <div><p class="para">Certain lunar eclipses have been referred to as "blood moons" in popular articles but this is not a scientifically recognized term.[19] This term has been given two separate, but overlapping, meanings.
+
+                    The first, and simpler, meaning relates to the reddish color a totally eclipsed Moon takes on to observers on Earth. As sunlight penetrates the atmosphere of Earth, the gaseous layer filters and refracts the rays in such a way that the green to violet wavelengths on the visible spectrum scatter more strongly than the red, thus giving the Moon a reddish cast. This is possible because the rays from the sun are able to wrap around the earth and refract off the Moon.
+                    
+                    The second meaning of "blood moon" has been derived from this apparent coloration by two fundamentalist Christian pastors, Mark Blitz and John Hagee.[19][23] They claimed that the 2014–15 "lunar tetrad" of four lunar eclipses coinciding with the feasts of Passover and Tabernacles matched the "moon turning to blood" described in the Book of Joel of the Hebrew Bible. This tetrad was claimed to herald the Second Coming of Christ and the Rapture as described in the Book of Revelation on the date of the first of the eclipses in this sequence on April 15, 2014.</p>
+                </div>
+                </center>
+                </div>
+                <br>
+                <br>
+
+
+                <div class="ss">
+                    <center>
+                
+                <h3><b> Occurences of Lunar Eclipses</b></h3>
+                <br>
+                <div><img class="is1" src="l6.jpg"></div>
+                <br>
+                <div><p class="para">At least two lunar eclipses and as many as five occur every year, although total lunar eclipses are significantly less common than partial lunar eclipses. If the date and time of an eclipse is known, the occurrences of upcoming eclipses are predictable using an eclipse cycle, like the saros. Eclipses occur only during an eclipse season, when the Sun appears to pass near either node of the Moon's orbit.</p>
+                </div>
+                </center>
+                </div>
+                <br>
+                <br>
+
+
+                </div>
+                <br>
+                <button id="lbt" class="btn-info" onclick="redirect_l()">GO TO SOLAR ECLIPSE PAGE</button>
+            </center>
+                <script src="main.js"></script>
+    </body>
+</html>
